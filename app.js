@@ -12,5 +12,5 @@ MongoClient.connect('mongodb://localhost:27017/video', function (err,db) {
         
         db.close();
     });
-    console.log("Called find()");    
+    console.log("Called find()");     
 });
